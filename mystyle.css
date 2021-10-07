@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(253, 230, 249);
+  }
+  
+  h1 {
+    color: rgb(129, 120, 110);
+    text-align: left;
+    
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  .bear {
+      width: 60px;
+      height: auto;
+  }
+
+  .teaparty {
+      width: 100%;
+      align-items:center;
+
+  }
+
+
+ 
