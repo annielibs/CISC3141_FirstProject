@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <title>Welcome to CampGuru</title>
+
   <head>
     <link rel="stylesheet" href="mystyle.css"
   </head>
 
   <body>
-    <div>
+    <div class = "mylogo">
       <p style="float: left">
         <img
           class="logoicon"
@@ -14,14 +15,6 @@
         />
       </p>
       <h1 class="head1">CampGuru</h1>
-    </div>
-
-    <div class="blurb">
-      <h2>
-        <br />
-        Discover campsites, talk to experts, <br />
-        rent gear, and find yourself in the great outdoors.
-      </h2>
     </div>
 
     <div class="topnav">
@@ -58,32 +51,36 @@
       </nav>
     </div>
 
-    <div class="mainpic">
-        <div class="myform">
-            <form class="initform">
-              <label for="where">Where to:</label><br />
-              <input type="text" id="where" name="where" /><br />
 
-              <label for="when">Date: </label><br />
-              <input type="date" id="when" name="when" /><br />
-              
-              <label for="numDays">Number of Days:</label><br />
-              <input type="number" id="numDays" name="numDays" /><br />
-              
-              <label for="numPpl">Number of Campers:</label><br />
-              <input type="number" id="numPpl" name="numPpl" /><br />
-
-              <button type="submit" class="submitbutton">Search</button>
-            </form>
-          </div>
+    <div class="heropic">
       <img
-        class="mainpic"
-        src="https://www.31daily.com/wp-content/uploads/2021/06/md-easy-camping-recipes.jpg"
+        class="background-image"
+        src="https://www.exploreminnesota.com/sites/default/files/styles/share_image/public/2020-01/winter-camping-hand-holding-cup-in-tent-snow-in-pine-forest.jpg?h=c6980913&itok=oIXrzJeV"
       />
-      <h3>The greatest adventure lies ahead</h3>
+      <div class="overlay">
+        <h3>
+          Find yourself in the great outdoors —<br />
+          discover campsites, talk to experts, rent gear, and more.
+        </h3>
+      </div>
+      </div>
 
-    
+    <div class="myform">
+      <form action="/action_page.php" class="initform">
+        <label for="where">Where to:</label><br />
+        <input type="text" id="where" name="where" /><br />
+
+        <label for="when">Date: </label><br />
+        <input type="date" id="when" name="when" /><br />
+
+        <label for="numDays">Number of days:</label><br />
+        <input type="number" id="numDays" name="numDays" /><br />
+
+        <label for="numPpl">Number of campers:</label><br />
+        <input type="number" id="numPpl" name="numPpl" /><br />
+
+        <button type="submit" class="submitbutton">Submit</button>
+      </form>
     </div>
-    
   </body>
 </html>
