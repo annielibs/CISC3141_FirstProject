@@ -41,6 +41,14 @@ h1 {
   
 }
 
+.two {
+    color:seashell;
+    font-size:10px; 
+    position: relative;
+    top: -30px;
+    margin: 0 -.5vw;
+}
+
 a {
   color: white;
   font-size: 20px;
@@ -54,6 +62,8 @@ a {
 .initform {
     color: white;
 }
+
+
 
 li{
     list-style-type:none; /* gets rid of link bullet points */
@@ -72,7 +82,7 @@ a{
     text-decoration: none;
 }
 
-.submitbutton {
+.searchbutton {
     background-color: darkseagreen;
     color: white;
     border-radius: 40px;
@@ -84,8 +94,8 @@ a{
 .heropic img {
     width: 100%;
     position: relative;
-    height: 500px;
-    filter: brightness(80%);
+    height: 480px;
+    filter: brightness(75%);
 
   }
   
@@ -99,8 +109,17 @@ a{
     color: white;
   }
 
+
+  .heropic .myform {
+      position: relative;
+      top: -270px; 
+      right: -450px; 
+  }
+
   .initform {
    color: white;   
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
    font-weight: bold;
-  }
+     }
+
+     
