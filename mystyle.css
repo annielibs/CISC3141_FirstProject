@@ -1,59 +1,85 @@
 body {
-    background-color: rgb(253, 230, 249);
-  }
-  
-.head1 {
-position: relative;
-top: 22px;
-left: 10px;
-
+  background-color: darkolivegreen;
 }
 
-  h1 {
-    color: rgb(129, 120, 110);
-    text-align: left;
-    
-  }
+.head1 {
+  position: relative;
+  top: 22px;
+  left: 10px;
+}
 
-  h2{
-      color:white;
-      text-align: right;
-      position: relative;
-      top: -650px;
-      left: -10px; 
-      font-size: 45px;
-      
-  }
+h1 {
+  color: white;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
 
-  h3 {
-      text-align: initial;
-      color: white
-      
-  }
+h3 {
+  color: burlywood;
+  text-align: right;
+  position: relative;
+  top: -780px;
+  left: -50px;
+  font-size: 65px;
+}
 
-  .bear {
-      width: 60px;
-      height: auto;
-  }
+.logoicon {
+  width: 65px;
+  height: auto;
+}
 
-  .teaparty { 
-      width: 100%;
-      align-items:center;
+.mainpic {
+  width: 100%;
+  align-items: center;
+}
 
-  }
+.topnav {
+  color: white;
+  float: right;
+  
+}
 
-  .topnav {
-    position: relative;
-    top: -28px;
-    color: rgb(129, 120, 110);
-    float: right;
+a {
+  color: white;
+  font-size: 20px;
+}
 
-  }
+.blurb {
+    text-align: center;
+    color: white;
+}
 
-  a{
-      color: rgb(129, 120, 110);
-      text-align: center;
-  }
+.initform {
+    color: white;
+}
 
+li{
+    list-style-type:none; /* gets rid of link bullet points */
+    text-decoration:none; /* gets rid of link underlines */
+    display: inline; /* arranges nav items horizonatlly rather than vertically*/
+    margin: 0 4vw; /* first val is for top/bottom, second val is for left/right  */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
- 
+nav{
+    width: 100vw;
+    background-color: darkseagreen;
+}
+
+a{
+    text-decoration: none;
+}
+
+.myform {
+    /* I want the form to go over the image*/
+}
+
+.submitbutton {
+    background-color: darkseagreen;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 30px;
+    width: 10%;
+    border-color: aliceblue;
+}
