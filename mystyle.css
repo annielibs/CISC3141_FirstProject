@@ -18,7 +18,7 @@ h1 {
   color: white;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 35px;
+  font-size: 27px;
   position: relative;
 }
 
@@ -74,7 +74,7 @@ li{
 }
 
 nav{
-    width: 100vw;
+    width: 97.6vw;
     background-color: darkseagreen;
 }
 
@@ -112,8 +112,9 @@ a{
 
   .heropic .myform {
       position: relative;
-      top: -270px; 
-      right: -450px; 
+      top: -270px;
+      right: -447px;  
+     
   }
 
   .initform {
