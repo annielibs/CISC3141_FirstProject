@@ -2,7 +2,6 @@ body {
   background-color: darkolivegreen;
 }
 
-
 .head1 {
   position: relative;
   top: 22px;
@@ -10,8 +9,8 @@ body {
 }
 
 .mylogo {
-    position: relative;
-    top: -20px; 
+  position: relative;
+  top: -20px;
 }
 
 h1 {
@@ -29,24 +28,23 @@ h1 {
 }
 
 .mainpic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .topnav {
   position: relative;
-  top: 2px; 
-  
+  top: 2px;
 }
 
 .two {
-    color:seashell;
-    font-size:10px; 
-    position: relative;
-    top: -30px;
-    margin: 0 -.5vw;
+  color: seashell;
+  font-size: 10px;
+  position: relative;
+  top: -30px;
+  margin: 0 -0.5vw;
 }
 
 a {
@@ -55,72 +53,117 @@ a {
 }
 
 .blurb {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 .initform {
-    color: white;
+  color: white;
 }
 
-
-
-li{
-    list-style-type:none; /* gets rid of link bullet points */
-    text-decoration:none; /* gets rid of link underlines */
-    display: inline; /* arranges nav items horizonatlly rather than vertically*/
-    margin: 0 3.5vw; /* first val is for top/bottom, second val is for left/right  */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.list1 {
+  list-style-type: none; /* gets rid of link bullet points */
+  text-decoration: none; /* gets rid of link underlines */
+  display: inline; /* arranges nav items horizonatlly rather than vertically*/
+  margin: 0 3.5vw; /* first val is for top/bottom, second val is for left/right  */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-nav{
-    width: 97.6vw;
-    background-color: darkseagreen;
+nav {
+  width: 97.6vw;
+  background-color: darkseagreen;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 .searchbutton {
-    background-color: darkseagreen;
-    color: white;
-    border-radius: 40px;
-    width: 8%;
-    border: 3px solid;
-    border-color: aliceblue;
+  background-color: darkseagreen;
+  color: white;
+  border-radius: 40px;
+  width: 8%;
+  border: 3px solid;
+  border-color: aliceblue;
 }
 
 .heropic img {
-    width: 100%;
-    position: relative;
-    height: 480px;
-    filter: brightness(75%);
+  width: 100%;
+  position: relative;
+  height: 480px;
+  filter: brightness(75%);
+}
 
-  }
-  
-  .heropic .overlay {
-    position: absolute;
-    top: 210px;
-    right: 265px;
-    font-weight: bold;
-    text-align:center;
-    font-size: 30px;
-    color: white;
-  }
+.heropic .overlay {
+  position: absolute;
+  top: 210px;
+  right: 265px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
 
+.heropic .myform {
+  position: relative;
+  top: -270px;
+  right: -447px;
+}
 
-  .heropic .myform {
-      position: relative;
-      top: -270px;
-      right: -447px;  
-     
-  }
+.initform {
+  color: white;
 
-  .initform {
-   color: white;   
- 
-   font-weight: bold;
-     }
+  font-weight: bold;
+}
 
-     
+.price,
+.lvltitle {
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-collapse: collapse;
+  border-radius: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: darkslategrey;
+}
+
+.tableheaders {
+  color: rgb(206, 228, 206);
+}
+
+th,
+td {
+  border-color: rgb(174, 206, 174);
+  border-style: double;
+  padding: 0.5rem;
+  border-spacing: 0pc;
+  border-width: 0.2px;
+}
+
+tr {
+  background-color: black;
+}
+
+.gurulight {
+  background-color: silver;
+}
+
+.gurupro {
+  background-color: rgb(176, 141, 87);
+}
+
+.guruprem {
+  background-color: rgb(212, 175, 55);
+}
+
+.botnav {
+  position: relative;
+  top: 60px;
+}
