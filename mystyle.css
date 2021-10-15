@@ -123,9 +123,8 @@ a {
 }
 
 table {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
+  margin-left: 555px;
+  margin-top: 40px;
   margin-bottom: 0;
   border-collapse: collapse;
   border-radius: 10px;
@@ -136,17 +135,15 @@ table {
 
 .tableheaders {
   color: aliceblue;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 th,
 td {
-/*  border-radius: 40px; */
-  border-style:hidden;
-  padding: .5rem;
+  /*  border-radius: 40px; */
+  border-style: hidden;
+  padding: 0.5rem;
   border-width: thin;
-
- 
 }
 
 tr {
@@ -167,7 +164,8 @@ tr {
 
 .botnav {
   position: relative;
-  top: 76px;
+  top: -350px;
+  left: -16px;
 }
 
 .price {
@@ -175,14 +173,28 @@ tr {
 }
 
 .shopguru {
-  background-color:darkseagreen;
+  background-color: darkseagreen;
   color: white;
   border-radius: 40px;
   width: 8%;
   border: 3px solid;
-  border-color:aliceblue;
+  border-color: aliceblue;
   font-weight: bold;
   position: relative;
-  left: 560px; 
-  top: -35px; 
+  left: 860px;
+  top: -545px;
+}
+
+textarea {
+  background-color: darkolivegreen;
+  border-style: hidden;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  position: relative;
+  top: -490px;
+  left: 30px;
+  resize: none;
+  
 }
